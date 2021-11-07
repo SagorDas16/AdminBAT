@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "607034148634",
+    "project_id": "adminbat-84b83",
+    "storage_bucket": "adminbat-84b83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607034148634:android:43299bc1526850a8180ea3",
+        "android_client_info": {
+          "package_name": "com.example.adminbat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607034148634-tej4gpbp8t0ojgdn32ai5rjrm95k2pc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQn_eR4kVS40vXYRR8od8DrnQ7j86zHP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607034148634-tej4gpbp8t0ojgdn32ai5rjrm95k2pc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

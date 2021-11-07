@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adminbat">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdminBAT">
+        <activity android:name=".teacher.TeacherProfileActivity"></activity>
+        <activity android:name=".student.StudentProfileActivity" />
+        <activity android:name=".TeacherSide.AttendanceSheetActivity" />
+        <activity android:name=".TeacherSide.OverallAttendanceActivity" />
+        <activity android:name=".TeacherSide.ViewAttendanceActivity" />
+        <activity android:name=".TeacherSide.MyTakeAttendanceActivity" />
+        <activity android:name=".TeacherSide.StudentActivity" />
+        <activity android:name=".TeacherSide.MyCousreDetailsActivity" />
+        <activity android:name=".TeacherSide.MyCoursesActivity" />
+        <activity android:name=".Courses.CourseDetailsActivity" />
+        <activity android:name=".Courses.AddCoursesActivity" />
+        <activity android:name=".Courses.AddSemesterActivity" />
+        <activity android:name=".BatchOptionActivity" />
+        <activity android:name=".BatchActivity" />
+        <activity android:name=".student.AddNewStudentActivity" />
+        <activity android:name=".teacher.TeacherActivity" />
+        <activity android:name=".AfterloginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
